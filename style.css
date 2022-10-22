@@ -144,7 +144,11 @@ header ul li a{
     filter: invert(1);
     margin: 5px 0;
     transform: scale(0.6);
+    color: #fff;
 }
+.logoRedes {
+    margin-top: 25px;
+  }
 
 @media (max-width: 991px) {
 
@@ -250,7 +254,12 @@ header ul li a{
         display: flex;
         justify-content: center;
         align-items: center;
+        color: #fff;
     }
+    .logoRedes {
+        margin-top: 15px;
+      }
+    
 
 }
 

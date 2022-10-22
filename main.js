@@ -19,9 +19,9 @@ document.querySelector('.thumb  li:nth-of-type(1)').insertAdjacentHTML("beforeen
 document.querySelector('.thumb  li:nth-of-type(2)').insertAdjacentHTML("beforeend", '<img src="img/pepsi002.png" onclick="imgSlider(\'img/pepsi002.png\');changeBgColor(\'#d61f3b\')">');
 document.querySelector('.thumb  li:nth-of-type(3)').insertAdjacentHTML("beforeend", '<img src="img/pepsi003.png" onclick="imgSlider(\'img/pepsi003.png\');changeBgColor(\'#1e1e1e\')">');
 
-document.querySelector('.sci  li:nth-of-type(1)').insertAdjacentHTML("beforeend", '<img src="img/facebook.png" >');
-document.querySelector('.sci  li:nth-of-type(2)').insertAdjacentHTML("beforeend", '<img src="img/twitter.png" >');
-document.querySelector('.sci  li:nth-of-type(3)').insertAdjacentHTML("beforeend", '<img src="img/instagram.png" >');
+document.querySelector('.sci  li:nth-of-type(1)').insertAdjacentHTML("beforeend", '<img src="img/facebook.png" class="logoRedes">');
+document.querySelector('.sci  li:nth-of-type(2)').insertAdjacentHTML("beforeend", '<img src="img/twitter.png" class="logoRedes">');
+document.querySelector('.sci  li:nth-of-type(3)').insertAdjacentHTML("beforeend", '<img src="img/instagram.png" class="logoRedes">');
 
 console.log(document.querySelector(".content .textBox p"));
 
